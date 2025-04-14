@@ -1,1 +1,100 @@
 // app global css in SCSS form
+
+body {
+  font-family: $font-family-sans-serif !important;
+  overflow-x: hidden;
+}
+
+.max-width-page{
+  max-width: 500px;
+  margin: auto;
+  padding-bottom: 200px;
+}
+
+.square-bottom-left{
+  border-top-left-radius: unset !important;
+  border-top-right-radius: unset !important;
+  border-bottom-right-radius: unset !important;
+}
+
+.square-bottom-right{
+  border-top-right-radius: unset !important;
+  border-top-left-radius: unset !important;
+  border-bottom-left-radius: unset !important;
+}
+
+.square{
+  border-radius: unset !important;
+}
+
+.q-card{
+  border-radius: 0.5rem;
+  background-color: #fafafa;
+}
+.q-card--dark {
+  background-color: unset !important;
+}
+
+.bg-all {
+  background-image: linear-gradient(135deg, #000000 0%, #818799 100%);
+}
+
+.q-btn {
+  border-radius: 0.5rem;
+}
+
+.q-dialog__inner > div {
+  border-radius: 0.5rem
+}
+
+.border-6px{
+  border-radius: 6px !important;
+}
+
+.border-solid{
+  border-style: solid !important;
+  border-width: 1px !important;
+}
+
+.border-secondary{
+  border-color: $secondary;
+}
+
+.border-positive{
+  border-color: $positive;
+}
+
+.border-negative{
+  border-color: $negative;
+}
+
+.circle{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  font-size: 30px;
+  color: white;
+  background: $warning;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.border-oval{
+  border-radius: 50%;
+  padding: 10px 14px;
+}
+
+.birder-dashed{
+  border-style: dashed !important;
+  border-width: 1px !important;
+}
+
+body.barcode-scanner-active {
+  visibility: hidden;
+}
+
+.barcode-scanner-modal {
+  visibility: visible;
+}

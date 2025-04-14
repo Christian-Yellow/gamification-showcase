@@ -12,14 +12,18 @@
 // to match your app's branding.
 // Tip: Use the "Theme Builder" on Quasar's documentation website.
 
-$primary   : #1976D2;
-$secondary : #26A69A;
-$accent    : #9C27B0;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+$font-family-sans-serif: 'Poppins', sans-serif;
+
+$primary   : #33353D;
+$secondary : #818799;
+$accent    : #FCD806;
 
 $dark      : #1D1D1D;
 $dark-page : #121212;
 
-$positive  : #21BA45;
-$negative  : #C10015;
-$info      : #31CCEC;
-$warning   : #F2C037;
+$positive  : #8FD14F;
+$negative  : #FF5733;
+$info      : #446F8C;
+$warning   : #FCD806;
